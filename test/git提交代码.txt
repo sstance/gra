@@ -1,0 +1,14 @@
+git clone本地项目到本地
+
+新建分支 git checkout -b  分支名
+然后修改文件，并在vscode的源代码管理里面提交本次修改，
+
+然后git push origin 分支名
+等待审核，
+审核完成后，删除新建分支（删除分支前需要在其他分支下进行删除，切换分支git  checkout 分支名）
+git branch -D  分支名
+C:\\Users\\\346\235\216\351\230\263\351\230\263/.ssh/id_rsa
+
+
+
+#每次发pr的时候要git pull origin master (与主分支保持一致)
